@@ -41,7 +41,6 @@ export default function RootLayout({
           content="Tekra21, e-ticaret, dijital ticaret, online mağaza, teknoloji, inovasyon, platform"
         />
         <meta name="author" content="Tekra21 Team" />
-        <meta name="theme-color" content="#1d4ed8" />
         <meta property="og:title" content="Tekra21 | Coming Soon" />
         <meta
           property="og:description"
