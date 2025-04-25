@@ -1,18 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGem, FaLightbulb, FaRocket } from "react-icons/fa";
+import { FaBoxes, FaLightbulb, FaShieldAlt } from "react-icons/fa";
 
 function BuyerSection() {
   const features = [
     {
-      icon: <FaRocket className="text-3xl md:text-5xl text-teal-300" />,
+      icon: <FaShieldAlt className="text-3xl md:text-5xl text-teal-300" />,
       title: "Hızlı ve Güvenli Alışveriş",
       text: "T21 ile güvenli ve hızlı alışveriş deneyiminin keyfini çıkarın. Alışveriş hiç bu kadar kolay olmamıştı!",
       delay: 0.2,
     },
     {
-      icon: <FaGem className="text-3xl md:text-5xl text-teal-300" />,
+      icon: <FaBoxes className="text-3xl md:text-5xl text-teal-300" />,
       title: "Geniş Ürün Yelpazesi",
       text: "İhtiyacınız olan her şey bir tık uzağınızda. Geniş ürün yelpazemizle alışveriş keyfi başlıyor.",
       delay: 0.4,

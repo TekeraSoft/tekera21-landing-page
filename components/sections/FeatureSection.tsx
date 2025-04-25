@@ -1,24 +1,24 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGem, FaRocket, FaLightbulb } from "react-icons/fa";
+import { FaGlobe, FaBolt, FaBrain } from "react-icons/fa";
 
 function FeatureSection() {
   const features = [
     {
-      icon: <FaGem className="text-3xl md:text-5xl text-teal-400" />,
+      icon: <FaGlobe className="text-3xl md:text-5xl text-teal-400" />,
       title: "Sınırları Aşan Bir Deneyim",
       text: "Satıcılar için geliştirilen yenilikçi çözümler ile ticaretin sınırlarını zorluyoruz.",
       delay: 0.2,
     },
     {
-      icon: <FaRocket className="text-3xl md:text-5xl text-teal-400" />,
+      icon: <FaBolt className="text-3xl md:text-5xl text-teal-400" />,
       title: "Hızla Gelişen Satıcı Çözümleri",
       text: "Satıcılar için hızla evrilen çözümler ile ticaretinizi kolaylaştırın.",
       delay: 0.4,
     },
     {
-      icon: <FaLightbulb className="text-3xl md:text-5xl text-teal-400" />,
+      icon: <FaBrain className="text-3xl md:text-5xl text-teal-400" />,
       title: "Yenilikçi Yaklaşım",
       text: "T21, satıcıları ön planda tutan yeni bir sistem sunuyor. Ticaretin geleceğini keşfedin.",
       delay: 0.6,
